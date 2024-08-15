@@ -15,9 +15,9 @@
   <div
     class="relative rounded-md border-2 border-black bg-white hover:shadow-[8px_8px_0px_rgba(0,0,0,1)]"
   >
-    <enhanced:img src={sale} sizes="min(1200px, 100vw)" class="max-w-screen-md w-full"/>
+    <enhanced:img src={sale} sizes="min(1200px, 100vw)" class="w-full max-w-screen-md" />
     <span class="text-shadow absolute left-4 top-4 text-6xl font-bold text-white">Promoção</span>
-    <span class="text-shadow absolute bottom-4 right-4 text-3xl font-bold text-white">
+    <span class="text-shadow absolute bottom-4 right-4 text-2xl font-bold text-white sm:text-3xl">
       X-Salada + Batata = R$9,90
     </span>
   </div>
